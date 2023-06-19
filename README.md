@@ -2,11 +2,11 @@
 
 *By [endroid](https://endroid.nl/)*
 
-[![Latest Stable Version](http://img.shields.io/packagist/v/endroid/qr-code.svg)](https://packagist.org/packages/endroid/qr-code)
-[![Build Status](https://github.com/endroid/qr-code/workflows/CI/badge.svg)](https://github.com/endroid/qr-code/actions)
-[![Total Downloads](http://img.shields.io/packagist/dt/endroid/qr-code.svg)](https://packagist.org/packages/endroid/qr-code)
-[![Monthly Downloads](http://img.shields.io/packagist/dm/endroid/qr-code.svg)](https://packagist.org/packages/endroid/qr-code)
-[![License](http://img.shields.io/packagist/l/endroid/qr-code.svg)](https://packagist.org/packages/endroid/qr-code)
+[![Latest Stable Version](http://img.shields.io/packagist/v/suman0359/qr-code.svg)](https://packagist.org/packages/suman0359/qr-code)
+[![Build Status](https://github.com/suman0359/qr-code/workflows/CI/badge.svg)](https://github.com/suman0359/qr-code/actions)
+[![Total Downloads](http://img.shields.io/packagist/dt/suman0359/qr-code.svg)](https://packagist.org/packages/suman0359/qr-code)
+[![Monthly Downloads](http://img.shields.io/packagist/dm/suman0359/qr-code.svg)](https://packagist.org/packages/suman0359/qr-code)
+[![License](http://img.shields.io/packagist/l/suman0359/qr-code.svg)](https://packagist.org/packages/suman0359/qr-code)
 
 This library helps you generate QR codes in a jiffy. Makes use of [bacon/bacon-qr-code](https://github.com/Bacon/BaconQrCode)
 to generate the matrix and [khanamiryan/qrcode-detector-decoder](https://github.com/khanamiryan/php-qrcode-detector-decoder)
@@ -24,7 +24,7 @@ Use [Composer](https://getcomposer.org/) to install the library. Also make sure 
 [GD extension](https://www.php.net/manual/en/book.image.php) if you want to generate images.
 
 ``` bash
- composer require endroid/qr-code
+ composer require suman0359/qr-code
 ```
 
 ## Usage: using the builder
@@ -188,7 +188,7 @@ Please note that validation affects performance so only use it in case of proble
 
 ## Symfony integration
 
-The [endroid/qr-code-bundle](https://github.com/endroid/qr-code-bundle)
+The [suman0359/qr-code-bundle](https://github.com/suman0359/qr-code-bundle)
 integrates the QR code library in Symfony for an even better experience.
 
 * Configure your defaults (like image size, default writer etc.)
@@ -196,7 +196,7 @@ integrates the QR code library in Symfony for an even better experience.
 * Generate QR codes for defined configurations via URL like /qr-code/<config>/Hello
 * Generate QR codes or URLs directly from Twig using dedicated functions
 
-Read the [bundle documentation](https://github.com/endroid/qr-code-bundle)
+Read the [bundle documentation](https://github.com/suman0359/qr-code-bundle)
 for more information.
 
 ## Versioning
