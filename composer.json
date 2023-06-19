@@ -2,22 +2,22 @@
     "name": "endroid/qr-code",
     "description": "Endroid QR Code",
     "keywords": ["endroid", "qrcode", "qr", "code", "php"],
-    "homepage": "https://github.com/endroid/qr-code",
+    "homepage": "https://github.com/suman0359/qr-code",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jeroen van den Enden",
-            "email": "info@endroid.nl"
+            "name": "Tasfir Hossain Suman",
+            "email": "info@webtech-bd.com"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4",
         "bacon/bacon-qr-code": "^2.0.5"
     },
     "require-dev": {
         "ext-gd": "*",
-        "endroid/quality": "dev-master",
+        "suman0359/quality": "^0.1.1",
         "khanamiryan/qrcode-detector-decoder": "^1.0.4||^2.0.2",
         "setasign/fpdf": "^1.8.2"
     },
